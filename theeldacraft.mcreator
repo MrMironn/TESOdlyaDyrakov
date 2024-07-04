@@ -1,0 +1,104 @@
+{
+  "mod_elements": [
+    {
+      "name": "ABOBUSArmor",
+      "type": "armor",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abobus_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/theeldacraft/models/item/abobus_armor_chestplate.json",
+          "src/main/resources/assets/theeldacraft/models/item/abobus_armor_boots.json",
+          "src/main/java/net/mcreator/theeldacraft/item/ABOBUSArmorItem.java",
+          "src/main/resources/assets/theeldacraft/models/item/abobus_armor_leggings.json",
+          "src/main/resources/assets/theeldacraft/models/item/abobus_armor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "ABOBUSArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abobus_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/theeldacraft/recipes/abobus_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ABOBUSArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abobus_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/theeldacraft/recipes/abobus_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ABOBUSArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abobus_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/theeldacraft/recipes/abobus_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ABOBUSArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abobus_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/theeldacraft/recipes/abobus_armor_boots_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "language_map": {
+    "en_us": {
+      "item.theeldacraft.abobus_armor_chestplate": "ABOBUS Chestplate",
+      "item.theeldacraft.abobus_armor_boots": "ABOBUS Boots",
+      "item.theeldacraft.abobus_armor_leggings": "ABOBUS Leggings",
+      "item.theeldacraft.abobus_armor_helmet": "ABOBUS Helmet"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "theeldacraft",
+    "modName": "TheEldacraft",
+    "version": "1.0.0",
+    "author": "USER, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.theeldacraft"
+  },
+  "mcreatorVersion": 202400118518
+}
